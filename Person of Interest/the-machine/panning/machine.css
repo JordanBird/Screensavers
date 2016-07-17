@@ -1,0 +1,49 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #080808;
+	height: 100%;
+    width: 100%;
+	overflow:hidden;
+}
+
+.feeds-container {
+    position: absolute;
+	width: 200%;
+	height: 200%;
+}
+
+.feed-container {
+	width: 640px;
+	height: 360px;
+
+	position: absolute;
+
+    overflow: hidden;
+	background-color: rgba(0,0,255,0.5);
+}
+.feed {
+    background-image: url(https://maps.googleapis.com/maps/api/streetview?size=640x382&location=40.758895,-73.985131&fov=120);
+    width: 100%;
+    height: 106%;
+    background-size: cover;
+}
+
+.mpovbox {
+	position: absolute;
+	max-height: 75px;
+	max-width: 75px;
+	background-size: contain;
+	
+	background-image: url('images/S03-WhiteSquare.png');
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(40,55,120,0.3);
+}

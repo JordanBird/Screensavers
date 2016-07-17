@@ -1,0 +1,80 @@
+@font-face {
+    font-family: magdacleanmono;
+    src: url(fonts/magdacleanmono-bold.ttf);
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	height: 100%;
+    width: 100%;
+}
+
+html,
+body.black-mode {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	height: 100%;
+    width: 100%;
+}
+
+html,
+body .white-mode {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+.samaritan-container {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+.samaritan-text {
+	color: white;
+    font-family: magdacleanmono;
+    text-align: center;
+    font-size: 2vw;
+}
+.black-mode .samaritan-text {
+	color: white;
+    font-family: magdacleanmono;
+    text-align: center;
+    font-size: 2vw;
+}
+.white-mode .samaritan-text {
+	color: black;
+    font-family: magdacleanmono;
+    text-align: center;
+    font-size: 2vw;
+}
+.samaritan-text span {
+	border-bottom: 2px solid white;
+    padding: 0px 10px;
+}
+.black-mode .samaritan-text span {
+	border-bottom: 2px solid white;
+    padding: 0px 10px;
+}
+.white-mode .samaritan-text span {
+	border-bottom: 2px solid black;
+    padding: 0px 10px;
+}
+.samaritan-triangle {
+	color: red;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 5px;
+}

@@ -1,0 +1,24 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+.glyph-container {
+	height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#glyph {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    min-height: 50px;
+    height: 50%;
+    left: 0;
+    right: 0;
+	display: none;
+}
