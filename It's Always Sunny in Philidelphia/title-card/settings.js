@@ -1,1 +1,4 @@
-var titleLocation = "Lincoln, UK";
+var settings = {
+	titleLocation: "Philidelphia, PA",
+	titleShow: "It's Always Sunny<br>in Philidelphia"
+};

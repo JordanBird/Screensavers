@@ -2,13 +2,26 @@ var fadeTime = 200;
 
 $(document).ready(function () {
 	setLocation();
+	setShowTitle();
 	startTime();
 	startTitleTick();
 });
 
 function setLocation() {
-	if (titleLocation != null && titleLocation != undefined) {
-		$('.location').html(titleLocation);
+	if (settings["titleLocation"] != null && settings["titleLocation"] != undefined) {
+		$('.location').html(settings["titleLocation"]);
+	}
+	else {
+		$('.location').html("Philidelphia, PA");
+	}
+}
+
+function setShowTitle() {
+	if (settings["titleShow"] != null && settings["titleShow"] != undefined) {
+		$('.title').html(settings["titleShow"]);
+	}
+	else {
+		$('.title').html("It's Always Sunny<br>in Philidelphia");
 	}
 }
 
